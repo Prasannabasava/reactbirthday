@@ -12,6 +12,7 @@ import BGMPlayer from './components/BGMPlayer';
 import { triggerGrandCelebration } from './utils/confetti';
 import { Heart, Clapperboard, Share2, Check } from 'lucide-react';
 
+
 export default function App() {
   const [copiedLink, setCopiedLink] = useState(false);
 
